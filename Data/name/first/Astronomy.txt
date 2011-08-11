@@ -1,0 +1,12 @@
+Adhara	f
+Altair	m
+Aludra	f
+Arista	f
+Bellatrix	f
+Betelgeuse	m
+Deneb	m
+Lyra	f
+Ophiuchus	m
+Rigel	m
+Sirius	m
+Vega	f

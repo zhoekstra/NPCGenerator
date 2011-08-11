@@ -1,0 +1,6 @@
+Aesop	m
+Aristotle	m
+Euclid	m
+Hesiod	m
+Polycarp	m
+Homer	m

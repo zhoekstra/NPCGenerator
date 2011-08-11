@@ -1,0 +1,10 @@
+Anakin	m
+Beavis	m
+Dilbert	m
+Draven	m
+Indy	m
+Jareth	m
+Leia	f
+Sango	f
+Usagi	f
+Xena	f

@@ -1,0 +1,89 @@
+The NPC Generator consists of a Generator that reads a few different types of
+files. If you want to add to or modify the files it uses, I've included
+instructions on how to do so here.
+
+If you're having trouble figuring out the format, look at a few examples
+I've included. Unfortunatly, right now the Generator is very picky about
+the format it uses, so try to adhere as much as possible to the format laid 
+out below.
+
+First Name Files:
+	First name files are located in Data/name/first. They contain a series
+	of names, each one on a single line, in the format:
+
+	<Name>\t<Gender>\n
+
+	Name can be anything that does not contain a tab. Gender is one of the
+	strings (m,f,mf,fm), denoting what gender(s) the name can be.
+	
+	The name of a first name file should be the ethnicity of the names
+	included in it, in the format
+
+	<Ethnicity>.txt
+
+	Ethnicity names should NOT contain spaces of any kind.
+
+Last Name Files
+	Last names files are located in Data/name/last. They should share a
+	filename with a first name file located in Data/name/first.
+
+	These files consist of a series of last names, one on each line,
+	In the format
+	
+	<Name>\n
+
+	When the generator chooses an ethnicity for the character, it first
+	picks a name from the first name file of that ethnicity, then a
+	last name from the last name file of that ethnicity, then 
+	appends them together. It is possible for an ethnicity
+	to have a first name file, but not a last name file,
+	in which case the last name is omitted. However,
+	an ethnicity MUST have a first name file.
+
+Trait Files
+
+	Trait files are located in Data/trait. They contain a series of
+	strings followed by integers, in the format:
+
+	<Trait String>\t<Probability>\n
+
+	Traits can also be followed by nothing, in which case their
+	probability defaults to one. for example,
+
+	<String>\n
+
+	is equivalent to
+	
+	<String> \t 1 \n
+
+	When the generator picks a trait from a trait file, it generates a
+	random number between 0 and the sum of the traits probabilities.
+	
+	The number after a trait represents the probability that it will be
+	selected. For example, if a trait file looks like this:
+
+	A	100
+	B	100
+	C	50
+	D	50
+
+	A and B would have a 1/3 chance of being selected each, while C and D
+	would have a 1/6 chance of being selected.
+
+World Files
+	
+	Every time you run NPC generator, you must first select a World file to
+	use. A world file is in the format,
+
+	<Ethnicitys>
+	TRAITS:
+	<Traits>
+
+	The ethnicities represent all the ethnicitis that exist in this world,
+	in the format
+
+	<Ethnicity>\t<Probability>\n
+
+	After the words TRAITS: on a single line, list all the trait files
+	that this world uses, without the .txt extension. The Generator will
+	load these files in the order you give them in the world file.

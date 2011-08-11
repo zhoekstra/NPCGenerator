@@ -1,0 +1,7 @@
+Union Loyalist	10
+Union Supporter	20
+Rebel Loyalist	10
+Rebel Supporter	20
+Independent Loyalist	5
+Independent Supporter	15
+No Loyalty	20

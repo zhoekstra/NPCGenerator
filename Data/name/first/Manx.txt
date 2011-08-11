@@ -1,0 +1,10 @@
+Blaanid	f
+Ealisaid	f
+Ean	m
+Illiam	m
+Margaid	f
+Moirrey	f
+Paaie	f
+Pherick	m
+Voirrey	f
+Juan	m

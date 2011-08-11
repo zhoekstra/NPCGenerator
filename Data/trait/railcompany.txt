@@ -1,0 +1,6 @@
+None	82
+Union Blue	4
+Black River	4
+Wasatch	4
+Denver-Pacific	4
+Other	2

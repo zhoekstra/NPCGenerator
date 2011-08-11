@@ -1,0 +1,6 @@
+None	80
+Huckster	7
+Blessed	2
+Scientist	7
+Martial Artist	2
+Black Magic	2

@@ -1,0 +1,8 @@
+Ammon	m
+Anubis	m
+Hathor	f
+Horus	m
+Isis	f
+Osiris	m
+Seth	m
+Thoth	m

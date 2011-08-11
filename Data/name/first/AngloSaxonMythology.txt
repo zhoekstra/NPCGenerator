@@ -1,0 +1,6 @@
+Beowulf	m
+Frige	f
+Puck	m
+Þunor	m
+Tiw	m
+Woden	m

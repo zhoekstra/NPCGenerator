@@ -1,0 +1,15 @@
+Ahmose	m
+Akhenaten	m
+Akhenaton	m
+Amenemhet	m
+Amenhotep	m
+Hatshepsut	f
+Imhotep	m
+Menes	m
+Nefertari	f
+Nefertiti	f
+Rameses	m
+Ramses	m
+Seti	m
+Thutmose	m
+Tutankhamon	m

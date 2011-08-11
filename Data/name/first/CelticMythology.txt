@@ -1,0 +1,14 @@
+Agrona	f
+Andraste	f
+Belenos	m
+Belenus	m
+Dwyn	m
+Epona	f
+Iseult	f
+Isolda	f
+Lugos	m
+Lugus	m
+Taranis	m
+Ysolt	f
+Isolde	f
+Tristan	m

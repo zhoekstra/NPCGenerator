@@ -1,0 +1,14 @@
+Atem	m
+Aten	m
+Aton	m
+Atum	m
+Bast	f
+Bastet	f
+Iah	m
+Iset	f
+Nephthys	f
+Ptah	m
+Ra	m
+Re	m
+Set	m
+Yamanu	m
